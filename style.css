@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Barrio&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Barriecito&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    top: 0;
+    padding: 10px;
+    position: fixed;
+    height: 5vh;
+    width: 100vw;
+    background-color: #718355;
+    border: 5px solid #97A97C;
+    
+    
+}
+.logo img{
+border: 3px solid #97A97C;
+margin-top: -.8vh;
+border-radius: 360px;
+height: 45px;
+margin-right: 10vh;
+float: right;
+}
+.navbar #pages{
+    display: inline;
+}
+.navbar #pages a{
+    background-color: #E9F5DB;
+    border-radius: 5px;
+    padding: 1vh;
+    margin-left: 2vh;
+    float: left;
+    border: 4px solid #97A97C;
+    font-family: Barriecito;
+    color: #87986A;
+}
+.background{
+    background-color: #E9F5DB;
+    background-position: center;
+    width: 97vw;
+    height: 95.6vh;
+    padding: 1.5vw;
+}
+.background h1{
+    font-size: 4em;
+    margin-top: 3em;
+    margin-bottom: 3px;
+    text-align: center;
+    font-family: Barrio;
+    color: #87986A;
+}
+.background p{
+    text-align: center;
+    color: #87986A;
+    font-family: Amaranth;
+}
+.bottom{
+    bottom: 0px;
+    padding: 10px;
+    position: fixed;
+    height: 5%;
+    width: 100%;
+    background-color: #718355;
+    border: 5px solid #97A97C;
+}
+.bottom p{
+    font-family: Barriecito;
+    color: #87986A;
+    background-color: #E9F5DB;
+    border-radius: 5px;
+    padding: 1vh;
+    margin-left: 5vh;
+    float: left;
+    border: 5px solid #97A97C;
+}
+.bottom .bottomlinks img{
+text-decoration: none;
+display: block;
+}
+.bottom .bottomlinks img{
+    height: 5vh;
+    border-radius: 4px;
+    border: 3px solid #97A97C;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    background-color: #E9F5DB;
+    float: right;
+}
+.background .members{
+    text-align: center;
+}
+
+.background .members img{
+border: 3px solid #97A97C;
+border-radius: 360px;
+padding: 10px;
+}
+.background .title{
+    font-size: 50px;
+    margin-top: 15vh;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: left;
+}
+.background .para{
+    font-size: 30px;
+    margin-top: 15vh;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: left;
+}
+.dropdown{
+    float: left;
+    overflow: hidden;
+}
+.dropdown .dropdownbtn{
+    font-size: 1.5em;
+    font-family:'shrikhand'; 
+    padding: .5vh;
+    margin-right: 2vh;
+    border: 3px solid #97A97C;
+    outline: none;
+    color: #87986A;
+    background-color: inherit;
+}
+.dropdown-content{
+    font-size: 1em;
+    display: none;
+    position: absolute;
+    width: 170px;
+    background-color: #E9F5DB;
+}
+.dropdown-content a:hover {
+    background-color: #E9F5DB;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.background .data{
+    font-family: Barrio;
+    color: #87986A;
+    font-size: 4em;
+    margin-top: 20vh;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.databan {
+    margin: 8.5vh;
+    margin-left: 5vh;
+}
+.background .graphs{
+    max-width: 100%;
+    height: auto;
+    margin-top: 5vh;
+}
+.background p{
+    font-size: 1.6em;
+    font-size: 1.6em;
+    margin-top: 5vh;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: left;
+    color: #87986A;
+    font-family: Amaranth;
+}
+.background .Conc{
+    font-size: 1.6em;
+    margin-top: 5vh;
+    margin-bottom: 15vh;
+    text-align: center;
+    color: #87986A;
+    font-family: Amaranth;
+}
+body{
+    background-color: #E9F5DB;
+}
+.background .par2 span{
+    color: #87986A;
+    font-family: Barrio;
+    font-size: 1.2em;
+    margin-top: -2vh;
+    margin-right: 60px;
+    text-align: left;
+}
+.background ul li{
+    color: #87986A;
+    font-family: Barriecito;
+    font-size: 1.3em;
+    margin-top: 1vh;
+    padding: -4px;
+    text-align: left;
+}
+.background .aboutme{
+    border: 3px solid #97A97C;
+    border-radius: 360px;
+    padding: 10px;
+}
+.background .AboutMe{
+    color: #87986A;
+    font-size: 50px;
+    font-family: Amaranth;
+    margin-top: 15vh;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
